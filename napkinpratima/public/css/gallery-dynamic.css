@@ -1,0 +1,30 @@
+
+/*gallery section*/
+
+.gallery-intro {
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.gallery-intro h1{
+	text-align:center;
+	color:#000;
+	padding-top:10px;
+	padding-bottom:50px;
+	font-weight:350;
+}
+.gallery-image{
+	height: 200px;
+	overflow: hidden;
+	padding: 10px 10px;
+	margin-bottom: 30px;
+}
+.gallery-image img{
+	height: 100%;
+	width: 100%;
+	object-fit:cover;
+}
+
+.gallery-image img:hover {
+	transform: scale(1.05);
+}

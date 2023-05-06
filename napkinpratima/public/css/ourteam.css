@@ -1,0 +1,50 @@
+.Our-team-section{
+  padding-bottom:100px;
+}
+
+
+
+.team-paragraph{
+	font-weight:350;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.team-background-image-section {
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:300px;
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+.team-text{
+    position: absolute;
+    bottom: 0;
+    padding: 20px 20px 10px 20px;
+    color:#fff;
+}
+.team-sub-heading{
+    color:#fff;
+    margin:0 0 10px 0;
+    padding:0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.team-background-image-section:hover .team-text .team-sub-heading{
+    color:#E34C63;
+}
+.team-background-image-section.text .team-heading-section{
+    line-height: 1.4;
+    color: #fff;
+    font-size:16px;
+    text-transform:capitalize;
+    
+}
+
+.team-background-image-section:hover .team-text .team-heading-section{
+    color:#E34C63;
+}

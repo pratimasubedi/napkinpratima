@@ -1,0 +1,43 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/jquery.easy_slides.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/jquery.easy_slides.js"></script>
+<!-- <style>
+body { background-color:#fafafa; padding:2em;}
+.slider > div { background-position:50% 50%; background-size:cover; color:#222;}
+</style> -->
+<title>jQuery EasySlides Plugin Demos</title>
+</head>
+<body>
+
+ <div class="slider slider_circle_10">
+  <div><img src="images/art.jpg">1</div>
+  <div><img src="images/ca3.jpg">2</div>
+  <div><img src="images/classroom.jpg">3</div>
+  <div><img src="images/gall1.jpg">4</div>
+  <div><img src="images/gall2.jpg">5</div>
+  <div><img src="images/gall3.jpg">6</div>
+  <div><img src="images/gall4.jpg">7</div>
+  <div><img src="images/library.jpg">8</div>
+  
+  <div class="next_button">NEXT</div>  
+  <div class="prev_button">PREV</div>  
+</div>
+
+
+ <script>
+   $(document).ready(function() {
+   
+     $('.slider_circle_10').EasySlides({'autoplay': true, 'show': 8})
+    
+   });
+ </script>
+ 
+</body>
+</html>

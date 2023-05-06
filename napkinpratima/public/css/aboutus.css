@@ -1,0 +1,49 @@
+
+.about-us-section{
+	padding-bottom:100px;
+}
+
+.about-us-heading{
+	text-align: center;
+	font-weight:350;
+	padding-top:50px;
+}
+.about-ceo-introduction{
+	padding-top:80px;
+	padding-bottom:20px;
+}
+.about-ceo-images{
+	height:480px;
+	overflow:hidden;
+	
+}
+.about-ceo-images img{
+	height:100%;
+	width:100%;
+	object-fit:cover;
+}
+
+.about-ceo-views{
+	text-align:center;
+	margin-top: -26px;
+	
+
+}
+.about-ceo-views h2{
+	text-transform:capitalize;
+	font-size:30px;
+	color: #000;
+	padding-left:20px;
+	padding-bottom:20px;
+	text-align:left;
+	font-weight:350;
+	padding-top:20px;
+}
+
+.about-ceo-views p{
+	text-align:left;
+	padding-left:20px;
+	padding-right:50px;
+	font-size:20px;
+	color:#000;
+}
